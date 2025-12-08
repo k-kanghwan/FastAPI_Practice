@@ -1,0 +1,10 @@
+aiomysql
+fastapi
+starlette
+uvicorn
+passlib
+bcrypt
+itsdangerous
+sqlalchemy
+Jinja2
+argon2-cffi
