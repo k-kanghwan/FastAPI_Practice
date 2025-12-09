@@ -13,7 +13,7 @@ source .venv/bin/activate
 
 #### `.wheels` 설치 방법(Offline)
 ```bash
-pip install --no-index --find-links ".\wheels" -r requirements.txt
+pip install --no-index --find-links ".\wheels-for-offline" -r requirements.txt
 ```
 
 #### `requirements.txt` 설치 방법(Online)
