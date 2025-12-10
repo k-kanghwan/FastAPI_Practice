@@ -28,6 +28,9 @@ pip install --no-index --find-links ".\wheels-for-offline" -r requirements.txt
 pip install -r requirements.txt
 ```
 
+#### Database 확인 
+- 사용 DB에 `fastapi_proj` 이 생성되어 있는지 확인
+
 #### `uvicorn` 실행 방법
 ```bash
 cd app
