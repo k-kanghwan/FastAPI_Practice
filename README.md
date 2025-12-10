@@ -1,3 +1,10 @@
+
+> wheel local download 
+>
+> `pip download {package_name} -d {directory}`
+> `pip download {package_name} -d wheels-for-offline`
+
+
 #### `venv` 생성
 ```bash
 python -m venv .venv
@@ -26,3 +33,4 @@ pip install -r requirements.txt
 cd app
 uvicorn main:app --reload
 ```
+
